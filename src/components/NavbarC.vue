@@ -16,12 +16,6 @@
                 <li class="nav-item">
                     <router-link class="nav-link px-4" to="/weather">Weather</router-link>
                 </li>
-
-                <li class="nav-item">
-                    <router-link class="nav-link px-4" to="/data">Api Data</router-link>
-                </li>
-                
-
                 
             </ul>
         </div>
@@ -39,7 +33,5 @@ export default{
     min-height: 10vh;
     
 }
-.nav-item{
-    font-size: 20px;
-}
+
 </style>
