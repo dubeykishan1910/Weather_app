@@ -1,6 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@400;500&display=swap");
 
-body{
-    font-family: 'Ubuntu', sans-serif !important;
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif !important;
+  font-size: 0.938rem;
+  background-color: hsl(207, 4%, 99%);
+  color: hsl(207, 4%, 56%);
+  /* transition: background .4s; */
+}
+
+h1,
+h2,
+h3 {
+  color: hsl(207, 4%, 16%);
+  font-family: "Lora", serif;
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
+}
+li{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #362727;
+  font-size: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+    max-width: 1024px;
+    margin-inline: 1.5rem;
+  }
+
+  .grid {
+    display: grid;
+    gap: 1.5rem;
+  }

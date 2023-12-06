@@ -1,12 +1,13 @@
 import { createRouter, createWebHistory } from "vue-router";
 import DefaultCom from "../components/DefaultCom.vue";
-import HeaderApp from "../Views/MainP.vue";
+import MainPp from "../components/MainPp.vue";
+
 
 
 const routes = [
-  { path: "/",
-   name: "HeaderApp",
-   component: HeaderApp,
+  { path: '/',
+   name: "Mainp",
+   component: MainPp,
   },
 
     {
