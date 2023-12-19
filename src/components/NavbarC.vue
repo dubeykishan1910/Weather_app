@@ -6,7 +6,7 @@
                 <li><router-link class="nav-link" to="/">Home</router-link></li>
                 <li v-on:click="logout"><a class="nav-link" href="#">Logout</a></li>
                 <li><router-link class="nav-link" to="/">Contact</router-link></li>
-                <li><router-link class="nav-link" to="/">card</router-link></li>
+                <li><router-link class="nav-link" to="/form">Form</router-link></li>
             </ul>
     
             <button @click="toggleNavbar" class="toggle_btn"><i class="ri-menu-line"></i></button>
@@ -50,7 +50,7 @@
     header {
         position: relative;
         padding: 0 2rem;
-        background-color: aqua;
+        background-color: rgb(245, 249, 249);
     }
     
     .navbar {
@@ -105,7 +105,7 @@
       align-items: center;
       justify-content: center;
     }
-    
+/*     
     @media (max-width: 992px) {
         .navbar .links {
             display: none;
@@ -135,5 +135,5 @@
             margin-inline: auto;
             
     }
-    }
+    } */
     </style>

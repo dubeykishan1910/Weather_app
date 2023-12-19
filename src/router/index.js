@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import DefaultCom from "../components/DefaultCom.vue";
 import MainPp from "../components/MainPp.vue";
+import FormC from "../components/FormC.vue";
 
 
 
@@ -9,6 +10,10 @@ const routes = [
    name: "Mainp",
    component: MainPp,
   },
+  { path: '/form',
+  name: "FormC",
+  component: FormC,
+ },
 
     {
       name:'/NotFound',
